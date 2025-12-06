@@ -495,7 +495,7 @@
             <div class="tagline" id="tagline">Интернет за границей за 2 минуты</div>
         </header>
 
-        <!-- Навигация -->
+       
         <div class="nav-tabs">
             <button class="nav-tab active" data-section="home">
                 <span>🏠</span> <span class="nav-text" data-i18n="nav_home">Главная</span>
@@ -513,8 +513,6 @@
                 <span>👤</span> <span class="nav-text" data-i18n="nav_profile">Профиль</span>
             </button>
         </div>
-
-        <!-- Главная страница -->
         <section id="home" class="section active">
             <h2 data-i18n="welcome">Добро пожаловать в eSIM Easy!</h2>
             
@@ -573,7 +571,6 @@
             </div>
         </section>
 
-        <!-- Купить eSIM -->
         <section id="buy" class="section">
             <h2><span>🛒</span> <span data-i18n="buy_title">Купить eSIM</span></h2>
             
@@ -651,7 +648,6 @@
             </div>
         </section>
 
-        <!-- Мои eSIM -->
         <section id="my-esims" class="section">
             <h2><span>📱</span> <span data-i18n="my_esims_title">Мои eSIM</span></h2>
             <div class="card-grid">
@@ -680,7 +676,6 @@
             </div>
         </section>
 
-        <!-- Реферальная программа -->
         <section id="referral" class="section">
             <h2><span>🎁</span> <span data-i18n="referral_title">Реферальная программа</span></h2>
             <div class="screen-preview">
@@ -692,7 +687,6 @@
             </div>
         </section>
 
-        <!-- Помощник выбора -->
         <section id="wizard" class="section">
             <h2><span>🔍</span> <span data-i18n="wizard_title">Помощник выбора</span></h2>
             <div class="step-wizard">
@@ -735,7 +729,6 @@
             </div>
         </section>
 
-        <!-- Профиль -->
         <section id="profile" class="section">
             <h2><span>👤</span> <span data-i18n="profile_title">Профиль</span></h2>
             <div class="profile-info">
@@ -754,13 +747,12 @@
             </div>
         </section>
 
-        <!-- Модальное окно покупки -->
         <div id="purchaseModal" class="modal">
             <div class="modal-content">
                 <button class="close-modal">&times;</button>
                 <h3 id="modalTitle" data-i18n="purchase_title">Оформление покупки</h3>
                 <div id="modalContent">
-                    <!-- Контент будет заполняться динамически -->
+
                 </div>
             </div>
         </div>
@@ -772,10 +764,10 @@
     </div>
 
     <script>
-        // Переводы
+
         const translations = {
             ru: {
-                // Основное
+               
                 tagline: "Интернет за границей за 2 минуты",
                 nav_home: "Главная",
                 nav_buy: "Купить eSIM",
@@ -783,7 +775,6 @@
                 nav_referral: "Реферальная",
                 nav_profile: "Профиль",
                 
-                // Главная
                 welcome: "Добро пожаловать в eSIM Easy!",
                 main_title: "Интернет за границей за 2 минуты",
                 main_subtitle: "Покупайте eSIM и подключайтесь сразу после оплаты",
@@ -805,7 +796,6 @@
                 step3_title: "3. Активируйте по инструкции",
                 step3_desc: "Мини-иллюстрация с QR-кодом",
                 
-                // Купить eSIM
                 buy_title: "Купить eSIM",
                 search_country: "Поиск по странам:",
                 search_field: "поле ввода с иконкой поиска",
@@ -824,7 +814,6 @@
                 package_asia: "Азия 7 стран",
                 package_america: "Америка",
                 
-                // Мои eSIM
                 my_esims_title: "Мои eSIM",
                 status: "Статус:",
                 status_active: "Активна",
@@ -837,16 +826,14 @@
                 activation_code: "Код активации:",
                 activation_date: "Дата активации:",
                 expiry_date: "Дата окончания:",
-                
-                // Реферальная
+
                 referral_title: "Реферальная программа",
                 referral_header: "Приглашайте друзей — получайте баллы",
                 your_link: "Ваша ссылка:",
                 copy_link: "Копировать ссылку",
                 your_balance: "Ваш баланс:",
                 referral_info: "Баллы можно тратить на тарифы или вывести при сумме от 1000 ₽ через поддержку",
-                
-                // Помощник выбора
+
                 wizard_title: "Помощник выбора",
                 wizard_step1: "Шаг 1: Куда летите?",
                 wizard_step1_desc: "Список континентов/регионов, выбор страны",
@@ -861,8 +848,7 @@
                 wizard_result: "Результат подбора",
                 recommended: "Рекомендуем:",
                 buy_recommended: "Купить рекомендованный тариф",
-                
-                // Профиль
+
                 profile_title: "Профиль",
                 username: "Имя пользователя:",
                 email_placeholder: "Email (опционально)",
@@ -870,24 +856,20 @@
                 currency: "Валюта:",
                 referral_balance: "Реферальный баланс:",
                 delete_data: "Удалить мои данные",
-                
-                // Покупка
+ 
                 purchase_title: "Оформление покупки",
-                
-                // Футер
+
                 copyright: "© 2023 eSIM Easy. Прототип интерфейса Telegram Mini App.",
                 demo_notice: "Это демонстрационная версия, созданная на основе технического задания."
             },
             en: {
-                // Main
                 tagline: "Internet abroad in 2 minutes",
                 nav_home: "Home",
                 nav_buy: "Buy eSIM",
                 nav_my_esims: "My eSIMs",
                 nav_referral: "Referral",
                 nav_profile: "Profile",
-                
-                // Home
+
                 welcome: "Welcome to eSIM Easy!",
                 main_title: "Internet abroad in 2 minutes",
                 main_subtitle: "Buy eSIM and connect immediately after payment",
@@ -909,7 +891,6 @@
                 step3_title: "3. Activate according to instructions",
                 step3_desc: "Mini illustration with QR code",
                 
-                // Buy eSIM
                 buy_title: "Buy eSIM",
                 search_country: "Search by countries:",
                 search_field: "input field with search icon",
@@ -927,8 +908,7 @@
                 package_europe: "Europe 30 countries",
                 package_asia: "Asia 7 countries",
                 package_america: "America",
-                
-                // My eSIMs
+
                 my_esims_title: "My eSIMs",
                 status: "Status:",
                 status_active: "Active",
@@ -941,16 +921,14 @@
                 activation_code: "Activation code:",
                 activation_date: "Activation date:",
                 expiry_date: "Expiry date:",
-                
-                // Referral
+
                 referral_title: "Referral program",
                 referral_header: "Invite friends — get points",
                 your_link: "Your link:",
                 copy_link: "Copy link",
                 your_balance: "Your balance:",
                 referral_info: "Points can be spent on tariffs or withdrawn from 1000 ₽ via support",
-                
-                // Wizard
+
                 wizard_title: "Choice assistant",
                 wizard_step1: "Step 1: Where are you flying?",
                 wizard_step1_desc: "List of continents/regions, country selection",
@@ -965,8 +943,7 @@
                 wizard_result: "Selection result",
                 recommended: "We recommend:",
                 buy_recommended: "Buy recommended plan",
-                
-                // Profile
+
                 profile_title: "Profile",
                 username: "Username:",
                 email_placeholder: "Email (optional)",
@@ -974,17 +951,14 @@
                 currency: "Currency:",
                 referral_balance: "Referral balance:",
                 delete_data: "Delete my data",
-                
-                // Purchase
+
                 purchase_title: "Order processing",
                 
-                // Footer
                 copyright: "© 2023 eSIM Easy. Telegram Mini App interface prototype.",
                 demo_notice: "This is a demo version created based on technical specifications."
             }
         };
 
-        // Данные тарифов
         const tariffs = {
             'turkey-10gb': {
                 name: 'Турция 10 ГБ / 30 дней',
@@ -1053,7 +1027,6 @@
             }
         };
 
-        // Переключение темы
         function toggleTheme(theme) {
             document.body.setAttribute('data-theme', theme);
             document.querySelectorAll('.theme-btn').forEach(btn => {
@@ -1062,21 +1035,18 @@
             localStorage.setItem('esim-theme', theme);
         }
 
-        // Переключение языка
         function changeLanguage(lang) {
             document.querySelectorAll('.lang-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.dataset.lang === lang);
             });
-            
-            // Обновляем все тексты с атрибутом data-i18n
+
             document.querySelectorAll('[data-i18n]').forEach(element => {
                 const key = element.getAttribute('data-i18n');
                 if (translations[lang] && translations[lang][key]) {
                     element.textContent = translations[lang][key];
                 }
             });
-            
-            // Обновляем placeholder'ы
+
             document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
                 const key = element.getAttribute('data-i18n-placeholder');
                 if (translations[lang] && translations[lang][key]) {
@@ -1087,7 +1057,6 @@
             localStorage.setItem('esim-language', lang);
         }
 
-        // Показать секцию
         function showSection(sectionId) {
             document.querySelectorAll('.section').forEach(section => {
                 section.classList.remove('active');
@@ -1103,7 +1072,6 @@
             });
         }
 
-        // Показать модальное окно покупки
         function showPurchaseModal(tariffId) {
             const tariff = tariffs[tariffId];
             if (!tariff) return;
@@ -1111,8 +1079,7 @@
             const modal = document.getElementById('purchaseModal');
             const modalTitle = document.getElementById('modalTitle');
             const modalContent = document.getElementById('modalContent');
-            
-            // Получаем текущий язык для перевода
+
             const currentLang = document.querySelector('.lang-btn.active').dataset.lang || 'ru';
             
             modalTitle.textContent = translations[currentLang].purchase_title;
@@ -1154,7 +1121,6 @@
             
             modal.classList.add('active');
             
-            // Обработчик подтверждения покупки
             document.getElementById('confirmPurchase').addEventListener('click', function() {
                 const email = document.getElementById('purchaseEmail').value;
                 const agreed = document.getElementById('agreeTerms').checked;
@@ -1168,56 +1134,47 @@
                     alert(currentLang === 'ru' ? 'Необходимо согласиться с условиями' : 'You must agree to the terms');
                     return;
                 }
-                
-                // Для реальной покупки нужно интегрировать платёжную систему
-                // Например, ЮKassa, Stripe, или другую
+
                 const paymentUrl = `https://yoomoney.ru/checkout/payments/v2/contract?orderId=${Date.now()}&sum=${tariff.price}&receiver=4100111111111111&quickpay-form=shop&paymentType=AC&successURL=${encodeURIComponent(window.location.origin + '?success=true')}`;
-                
-                // Открываем платёжную страницу
+
                 window.open(paymentUrl, '_blank');
                 
                 modal.classList.remove('active');
             });
         }
 
-        // Инициализация при загрузке страницы
         document.addEventListener('DOMContentLoaded', function() {
-            // Загрузка сохранённых настроек
+
             const savedTheme = localStorage.getItem('esim-theme') || 'light';
             const savedLang = localStorage.getItem('esim-language') || 'ru';
             
             toggleTheme(savedTheme);
             changeLanguage(savedLang);
-            
-            // Переключатели темы
+
             document.querySelectorAll('.theme-btn').forEach(btn => {
                 btn.addEventListener('click', function() {
                     toggleTheme(this.dataset.theme);
                 });
             });
-            
-            // Переключатели языка
+
             document.querySelectorAll('.lang-btn').forEach(btn => {
                 btn.addEventListener('click', function() {
                     changeLanguage(this.dataset.lang);
                 });
             });
-            
-            // Навигация по табам
+
             document.querySelectorAll('.nav-tab').forEach(tab => {
                 tab.addEventListener('click', function() {
                     showSection(this.dataset.section);
                 });
             });
-            
-            // Быстрые действия
+
             document.querySelectorAll('.action-card').forEach(card => {
                 card.addEventListener('click', function() {
                     showSection(this.dataset.section);
                 });
             });
-            
-            // Кнопки "Купить" в каталоге
+
             document.querySelectorAll('.buy-btn').forEach(btn => {
                 btn.addEventListener('click', function(e) {
                     e.stopPropagation();
@@ -1225,16 +1182,14 @@
                     showPurchaseModal(tariffId);
                 });
             });
-            
-            // Карточки тарифов (клик по всей карточке)
+
             document.querySelectorAll('.card[data-tariff]').forEach(card => {
                 card.addEventListener('click', function() {
                     const tariffId = this.dataset.tariff;
                     showPurchaseModal(tariffId);
                 });
             });
-            
-            // Кнопки на главной
+
             document.querySelectorAll('[data-section]').forEach(btn => {
                 if (btn.tagName === 'BUTTON') {
                     btn.addEventListener('click', function() {
@@ -1243,19 +1198,16 @@
                 }
             });
             
-            // Закрытие модального окна
             document.querySelector('.close-modal').addEventListener('click', function() {
                 document.getElementById('purchaseModal').classList.remove('active');
             });
-            
-            // Клик вне модального окна
+  
             document.getElementById('purchaseModal').addEventListener('click', function(e) {
                 if (e.target === this) {
                     this.classList.remove('active');
                 }
             });
-            
-            // Копирование реферальной ссылки
+
             document.querySelector('.copy-ref-btn').addEventListener('click', function() {
                 const currentLang = document.querySelector('.lang-btn.active').dataset.lang || 'ru';
                 const originalText = this.textContent;
@@ -1264,10 +1216,10 @@
                     this.textContent = originalText;
                 }, 2000);
             });
-            
-            // Показать главную страницу по умолчанию
+ 
             showSection('home');
         });
     </script>
 </body>
+
 </html>
