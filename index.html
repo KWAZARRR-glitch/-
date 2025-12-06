@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="logo">eSIM Easy</div>
+
+<div class="fi-logo-header">
+    <div class="fi-circle">
+        <span class="fi-text">fi</span>
+    </div>
+</div>
+
+<div class="tagline" id="tagline">Интернет за границей за 2 минуты</div>
     <title>eSIM Easy — Интернет за границей за 2 минуты</title>
     <style>
-        * {
+        
+.fi-circle {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(145deg, #F5F5F5, #E0E0E0);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 
+        0 2px 4px rgba(0,0,0,0.1),
+        inset 0 1px 0 rgba(255,255,255,0.5);
+    border: 1px solid #E0E0E0;
+    margin: 0 auto 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.fi-circle:hover {
+    transform: scale(1.05);
+    background: linear-gradient(145deg, #E8EAED, #DADCE0);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.fi-text {
+    color: #5F6368;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Google Sans', 'Roboto', Arial, sans-serif;
+    letter-spacing: -1px;
+}
+
+/* Контейнер для логотипа в шапке */
+.fi-logo-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Мобильная версия */
+@media (max-width: 768px) {
+    .fi-circle {
+        width: 50px;
+        height: 50px;
+    }
+    .fi-text {
+        font-size: 20px;
+    }
+}
+        {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -1218,4 +1275,5 @@
 </body>
 
 </html>
+
 
